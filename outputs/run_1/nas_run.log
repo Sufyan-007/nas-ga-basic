@@ -1,0 +1,212 @@
+Using device: cuda
+Starting with 10 Population:
+[Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=1, acc=0.0000)]
+
+
+============================================================
+Generation 1/5
+============================================================
+Evaluating architecture 1/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6450, Accuracy: 0.6450
+Evaluating architecture 2/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6470, Accuracy: 0.6470
+Evaluating architecture 3/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6210, Accuracy: 0.6210
+Evaluating architecture 4/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6620, Accuracy: 0.6620
+Evaluating architecture 5/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6760, Accuracy: 0.6760
+Evaluating architecture 6/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6240, Accuracy: 0.6240
+Evaluating architecture 7/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6750, Accuracy: 0.6750
+Evaluating architecture 8/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6460, Accuracy: 0.6460
+Evaluating architecture 9/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6450, Accuracy: 0.6450
+Evaluating architecture 10/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.5550, Accuracy: 0.5550
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=3, acc=0.6760)
+
+Best overall: Arch(conv=3, acc=0.6760)
+
+Performing tournament selection of total population: 10 ...
+Relative fitness/Probabilities: [0.10569105691056911, 0.10553470919324578, 0.10350218886804254, 0.10115697310819262, 0.10100062539086929, 0.10084427767354597, 0.10084427767354597, 0.0975609756097561, 0.09709193245778612, 0.08677298311444653]
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=3, acc=0.6760), Arch(conv=3, acc=0.6750), Arch(conv=4, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=1, acc=0.5550)]
+
+============================================================
+Generation 2/5
+============================================================
+Evaluating architecture 1/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6590, Accuracy: 0.6590
+Evaluating architecture 2/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6420, Accuracy: 0.6420
+Evaluating architecture 3/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6200, Accuracy: 0.6200
+Evaluating architecture 4/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6280, Accuracy: 0.6280
+Evaluating architecture 5/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6350, Accuracy: 0.6350
+Evaluating architecture 6/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6320, Accuracy: 0.6320
+Evaluating architecture 7/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6230, Accuracy: 0.6230
+Evaluating architecture 8/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6460, Accuracy: 0.6460
+Evaluating architecture 9/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6780, Accuracy: 0.6780
+Evaluating architecture 10/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.5680, Accuracy: 0.5680
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=3, acc=0.6780)
+
+Best overall: Arch(conv=3, acc=0.6780)
+
+Performing tournament selection of total population: 10 ...
+Relative fitness/Probabilities: [0.10709208655820565, 0.10409098088769546, 0.1020375927973464, 0.10140578107723898, 0.10030011056705102, 0.09982625177697045, 0.09919444005686305, 0.09840467540672879, 0.09793081661664824, 0.08971726425525192]
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=3, acc=0.6780), Arch(conv=3, acc=0.6590), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.6780), Arch(conv=3, acc=0.0000)]
+
+============================================================
+Generation 3/5
+============================================================
+Evaluating architecture 1/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6580, Accuracy: 0.6580
+Evaluating architecture 2/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6510, Accuracy: 0.6510
+Evaluating architecture 3/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6290, Accuracy: 0.6290
+Evaluating architecture 4/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6360, Accuracy: 0.6360
+Evaluating architecture 5/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6380, Accuracy: 0.6380
+Evaluating architecture 6/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6310, Accuracy: 0.6310
+Evaluating architecture 7/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6550, Accuracy: 0.6550
+Evaluating architecture 8/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6510, Accuracy: 0.6510
+Evaluating architecture 9/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6670, Accuracy: 0.6670
+Evaluating architecture 10/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6680, Accuracy: 0.6680
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=3, acc=0.6680)
+
+Best overall: Arch(conv=3, acc=0.6780)
+
+Performing tournament selection of total population: 10 ...
+Relative fitness/Probabilities: [0.10302282541640963, 0.10286859962985812, 0.10148056755089452, 0.10101789019123998, 0.10040098704503393, 0.10040098704503393, 0.09839605181986429, 0.09808760024676126, 0.0973164713140037, 0.09700801974090068]
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=3, acc=0.6680), Arch(conv=3, acc=0.6670), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.6680), Arch(conv=1, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000)]
+
+============================================================
+Generation 4/5
+============================================================
+Evaluating architecture 1/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6680, Accuracy: 0.6680
+Evaluating architecture 2/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6640, Accuracy: 0.6640
+Evaluating architecture 3/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6640, Accuracy: 0.6640
+Evaluating architecture 4/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6340, Accuracy: 0.6340
+Evaluating architecture 5/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6410, Accuracy: 0.6410
+Evaluating architecture 6/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6750, Accuracy: 0.6750
+Evaluating architecture 7/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.5510, Accuracy: 0.5510
+Evaluating architecture 8/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6700, Accuracy: 0.6700
+Evaluating architecture 9/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6390, Accuracy: 0.6390
+Evaluating architecture 10/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6650, Accuracy: 0.6650
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=3, acc=0.6750)
+
+Best overall: Arch(conv=3, acc=0.6780)
+
+Performing tournament selection of total population: 10 ...
+Relative fitness/Probabilities: [0.10431154381084841, 0.10353886570854583, 0.10322979446762479, 0.10276618760624325, 0.10261165198578273, 0.10261165198578273, 0.09905733271519085, 0.09874826147426982, 0.09797558337196724, 0.0851491268737444]
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=3, acc=0.6750), Arch(conv=3, acc=0.6700), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.6700), Arch(conv=3, acc=0.6640)]
+
+============================================================
+Generation 5/5
+============================================================
+Evaluating architecture 1/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6740, Accuracy: 0.6740
+Evaluating architecture 2/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6660, Accuracy: 0.6660
+Evaluating architecture 3/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6430, Accuracy: 0.6430
+Evaluating architecture 4/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6270, Accuracy: 0.6270
+Evaluating architecture 5/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6590, Accuracy: 0.6590
+Evaluating architecture 6/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6740, Accuracy: 0.6740
+Evaluating architecture 7/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6340, Accuracy: 0.6340
+Evaluating architecture 8/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6180, Accuracy: 0.6180
+Evaluating architecture 9/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6590, Accuracy: 0.6590
+Evaluating architecture 10/10... Number of params - Conv: 0, FC: 0
+Fitness: 0.6490, Accuracy: 0.6490
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=3, acc=0.6740)
+
+Best overall: Arch(conv=3, acc=0.6780)
+
+Performing tournament selection of total population: 10 ...
+Relative fitness/Probabilities: [0.10364447178225435, 0.10364447178225435, 0.10241427033676764, 0.10133784407196679, 0.10133784407196679, 0.09980009226510841, 0.09887744118099338, 0.09749346455482086, 0.09641703829001999, 0.09503306166384745]
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=3, acc=0.6740), Arch(conv=3, acc=0.6740), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.6430), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=3, acc=0.6590), Arch(conv=3, acc=0.6590)]
+
+============================================================
+FINAL BEST ARCHITECTURE
+============================================================
+Genes: {'num_conv': 3, 'conv_configs': [{'filters': 128, 'kernel_size': 3}, {'filters': 128, 'kernel_size': 3}, {'filters': 16, 'kernel_size': 5}], 'pool_type': 'max', 'activation': 'leaky_relu', 'fc_units': 512}
+Accuracy: 0.6780
+Fitness: 0.6780
+
+Total parameters: 732,858
+
+Model architecture:
+CNN(
+  (features): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): LeakyReLU(negative_slope=0.1, inplace=True)
+    (3): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): LeakyReLU(negative_slope=0.1, inplace=True)
+    (6): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (7): Conv2d(128, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (8): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): LeakyReLU(negative_slope=0.1, inplace=True)
+    (10): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (classifier): Sequential(
+    (0): Flatten(start_dim=1, end_dim=-1)
+    (1): Linear(in_features=1024, out_features=512, bias=True)
+    (2): ReLU(inplace=True)
+    (3): Dropout(p=0.5, inplace=False)
+    (4): Linear(in_features=512, out_features=10, bias=True)
+  )
+)

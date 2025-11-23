@@ -135,7 +135,6 @@ class GeneticAlgorithm:
             return 0
     
     def selection(self):
-        """Tournament selection"""
         sum_fitness = sum(x.fitness for x in self.population)
         if sum_fitness == 0:
             return random.choices(self.population, k=self.population_size)
