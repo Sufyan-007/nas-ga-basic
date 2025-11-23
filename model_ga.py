@@ -108,8 +108,15 @@ class GeneticAlgorithm:
                     break
             
             # Calculate model complexity penalty
-            num_params = sum(p.numel() for p in model.parameters())
-            complexity_penalty = num_params / 1e6  # Normalize
+            num_convolutional_params = 0
+            num_fc_params = 0
+            for name, param in model.named_parameters():
+                if 'conv' in name:
+                    num_convolutional_params += param.numel()
+                elif 'fc' in name:
+                    num_fc_params += param.numel()
+            print(f"Number of params - Conv: {num_convolutional_params}, FC: {num_fc_params}", flush=True)
+            complexity_penalty = (2*num_convolutional_params+num_fc_params) / 1e6  # Normalize
 
             del model, inputs, outputs, labels
             torch.cuda.empty_cache()
@@ -129,15 +136,17 @@ class GeneticAlgorithm:
     
     def selection(self):
         """Tournament selection"""
-        tournament_size = 3
-        selected = []
-        
-        for _ in range(self.population_size):
-            tournament = random.sample(self.population, tournament_size)
-            winner = max(tournament, key=lambda x: x.fitness)
-            selected.append(winner)
-        
-        return selected
+        sum_fitness = sum(x.fitness for x in self.population)
+        if sum_fitness == 0:
+            return random.choices(self.population, k=self.population_size)
+        else:
+            probabilites = [x.fitness / sum_fitness for x in self.population]
+            print(f"Relative fitness/Probabilities: {probabilites}", flush=True)
+            return random.choices(
+                self.population,
+                weights=probabilites,
+                k=self.population_size
+            )
     
     def crossover(self, parent1, parent2):
         """Single-point crossover for architectures"""
